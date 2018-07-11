@@ -1,0 +1,7 @@
+<template name='white_box'>
+    <view class='white_box'></view>
+</template>
+
+<template name='green_box'>
+    <view class='green_box'></view>
+</template>

@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "page/index/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#12cd32",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "生命格子",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+}

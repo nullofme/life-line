@@ -1,0 +1,15 @@
+.white_box{
+  box-sizing: border-box;
+  width: 60rpx;
+  height: 60rpx;
+  border: 2rpx solid lightblue;
+  
+}
+.green_box{
+      box-sizing: border-box;
+    width: 60rpx;
+    height: 60rpx;
+    background: green;
+     border: 2rpx solid lightblue;
+     z-index: 9;
+}
