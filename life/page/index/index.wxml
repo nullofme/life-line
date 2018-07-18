@@ -1,24 +1,24 @@
 <import src="../template/template.wxml" />
 <view class='body'>
-<view class='{{!top_show?"show_none":""}}'>
-    <view>
-        <form bindsubmit='submit'>
-            <view class='inline'>
-                <text>请输入您的年龄</text>
-                <input type='number' name='green' value='{{val_green}}' maxlength='3'  bindinput='input_age' data-id='green'></input>
-            </view>
-            <view class='inline'>
-                <text>请输入理想的最大年龄</text>
-                <input type='number' name='white' value='{{val_white}}' maxlength='3' bindinput='input_age' data-id='white'></input>
-            </view>
-            <view class='inline'>
-                <button form-type='submit' class='button'>提交</button>
-                <button class='button' bindtap='deleteThis'>重置</button>
-            </view>
-        </form>
+    <view class='{{!top_show?"show_none":""}}'>
+        <view>
+            <form bindsubmit='submit'>
+                <view class='inline'>
+                    <text>请输入您的年龄</text>
+                    <input type='number' name='green' value='{{val_green}}' maxlength='3' bindinput='input_age' data-id='green'></input>
+                </view>
+                <view class='inline'>
+                    <text>请输入理想的最大年龄</text>
+                    <input type='number' name='white' value='{{val_white}}' maxlength='3' bindinput='input_age' data-id='white'></input>
+                </view>
+                <view class='inline'>
+                    <button form-type='submit' class='button'>提交</button>
+                    <button class='button' bindtap='deleteThis'>重置</button>
+                </view>
+            </form>
+        </view>
+        <button class='{{button_show==true?"share":""}}' open-type='share'></button>
     </view>
-    <button class='{{button_show==true?"share":""}}' open-type='share'></button>
-</view>
     <view class='box'>
         <view class='container1'>
             <block wx:for="{{green}}">

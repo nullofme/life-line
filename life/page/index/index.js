@@ -65,6 +65,9 @@ Page({
     onLoad: function (options) {
     },
     onShareAppMessage() {
+        // wx.showShareMenu({
+        //     withShareTicket: true
+        // })
         this.setData({top_show:false});
         var that=this;
         return {
